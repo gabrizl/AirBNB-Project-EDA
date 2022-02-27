@@ -99,7 +99,7 @@ public class Console {
         }
     }
 
-    public void program() throws ParseException {
+    public void program() throws ParseException,InterruptedException {
 
         System.out.printf("\t\tSelecione o Método de Ordenação\n");
         System.out.printf("\t\t-------------------------------\n\n");
