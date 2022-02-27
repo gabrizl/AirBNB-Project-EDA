@@ -27,7 +27,7 @@ public class ReadCSV {
     this.sep = sep.length() == 0 ? "," : sep;
   }
 
-  public void readCsv(SortInterface algoritm) throws ParseException {
+  public void readCsv(SortInterface algoritm) throws ParseException, InterruptedException {
 
     String arquivoCSV = this.filePath;
     BufferedReader br = null;
@@ -49,6 +49,8 @@ public class ReadCSV {
       }
 
       int col = indexOfColumn(header);
+      System.out.println(col);
+      Thread.sleep(10000);
 
       // matrix = DateFormat.mudarData(matrix);
 
