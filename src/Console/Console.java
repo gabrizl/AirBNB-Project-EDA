@@ -629,9 +629,9 @@ public class Console {
         System.out.printf("Desenvolvedores :\n\n");
         System.out.printf("Gabriel Alves da Costa e Silva - gabriel.costa@aluno.uepb.edu.br\n");
         System.out.printf("Github -> gabrizl\n\n");
-        System.out.printf("Jose Axaiel - email@aluno.uepb.edu.br\n");
+        System.out.printf("Jose Axaiel - jose.queiroz@aluno.uepb.edu.br\n");
         System.out.printf("Github -> \n\n");
-        System.out.printf("Natalia - email@aluno.uepb.edu.br\n");
+        System.out.printf("Natalia Maite- natalia.guimaraes@aluno.uepb.edu.br\n");
         System.out.printf("Github -> \n\n");
         promptEnterKey();
         clearConsole();
