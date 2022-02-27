@@ -46,7 +46,7 @@ public class Console {
         this.fileBase = this.basePAth + "/base/" + fileBase;
     }
 
-    public void menu() throws ParseException {
+    public void menu() throws ParseException, InterruptedException {
 
         while (true) {
 
@@ -99,7 +99,7 @@ public class Console {
         }
     }
 
-    public void program() throws ParseException {
+    public void program() throws ParseException, InterruptedException {
 
         System.out.printf("\t\tSelecione o Método de Ordenação\n");
         System.out.printf("\t\t-------------------------------\n\n");
@@ -113,7 +113,7 @@ public class Console {
         System.out.printf("Digite (7) - HeapSort\n\n");
         System.out.printf("Digite (8) - Executar Todos\n\n");
         System.out.printf("Digite (9) - Transformar Datas\n\n");
-        System.out.printf("Digite (10) - Gerar valores Acima da Media\n\n");
+        System.out.printf("Digite (10) - Gerar valores Acima da Media \n\n");
         System.out.printf("Digite (0) - SAIR\n\n");
 
         int digito = getEnter();

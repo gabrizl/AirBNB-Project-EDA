@@ -49,8 +49,6 @@ public class ReadCSV {
       }
 
       int col = indexOfColumn(header);
-      System.out.println(col);
-      Thread.sleep(10000);
 
       // matrix = DateFormat.mudarData(matrix);
 
