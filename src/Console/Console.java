@@ -46,7 +46,7 @@ public class Console {
         this.fileBase = this.basePAth + "/base/" + fileBase;
     }
 
-    public void menu() throws ParseException {
+    public void menu() throws ParseException, InterruptedException {
 
         while (true) {
 
