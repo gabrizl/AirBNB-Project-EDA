@@ -1,7 +1,5 @@
 package algoritms;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -23,14 +21,3 @@ public class DateFormat implements TransformInterface {
 
     }
 }
-
-/*
- * public ReadCSV(String filePath, String pathToSave,
- * String pathToSaveMetrics, String columnToOrder, String sep) {
- * this.filePath = filePath;
- * this.pathToSave = pathToSave;
- * this.columnToOrder = columnToOrder;
- * this.pathToSaveMetrics = pathToSaveMetrics;
- * this.sep = sep.length() == 0 ? "," : sep;
- * }
- */

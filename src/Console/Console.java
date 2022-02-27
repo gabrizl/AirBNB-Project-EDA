@@ -3,7 +3,6 @@ package Console;
 import java.io.File;
 import java.io.IOException;
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.*;
 
 import algoritms.ReadCSV;
@@ -99,11 +98,7 @@ public class Console {
         }
     }
 
-<<<<<<< HEAD
     public void program() throws ParseException, InterruptedException {
-=======
-    public void program() throws ParseException,InterruptedException {
->>>>>>> 69eebb9be2ef70498d509582f4fa7a33ec27ab1e
 
         System.out.printf("\t\tSelecione o Método de Ordenação\n");
         System.out.printf("\t\t-------------------------------\n\n");
@@ -117,11 +112,7 @@ public class Console {
         System.out.printf("Digite (7) - HeapSort\n\n");
         System.out.printf("Digite (8) - Executar Todos\n\n");
         System.out.printf("Digite (9) - Transformar Datas\n\n");
-<<<<<<< HEAD
-        System.out.printf("Digite (10) - Gerar valores Acima da Media \n\n");
-=======
         System.out.printf("Digite (10) - Gerar valores Acima da Media\n\n");
->>>>>>> 69eebb9be2ef70498d509582f4fa7a33ec27ab1e
         System.out.printf("Digite (0) - SAIR\n\n");
 
         int digito = getEnter();
@@ -637,15 +628,9 @@ public class Console {
         System.out.printf("Desenvolvedores :\n\n");
         System.out.printf("Gabriel Alves da Costa e Silva - gabriel.costa@aluno.uepb.edu.br\n");
         System.out.printf("Github -> gabrizl\n\n");
-<<<<<<< HEAD
         System.out.printf("Jose Axaiel - jose.queiroz@aluno.uepb.edu.br\n");
         System.out.printf("Github -> \n\n");
         System.out.printf("Natalia Maite- natalia.guimaraes@aluno.uepb.edu.br\n");
-=======
-        System.out.printf("Jose Axaiel - email@aluno.uepb.edu.br\n");
-        System.out.printf("Github -> \n\n");
-        System.out.printf("Natalia - email@aluno.uepb.edu.br\n");
->>>>>>> 69eebb9be2ef70498d509582f4fa7a33ec27ab1e
         System.out.printf("Github -> \n\n");
         promptEnterKey();
         clearConsole();
