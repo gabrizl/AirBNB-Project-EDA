@@ -112,7 +112,7 @@ public class Console {
                 System.out.printf("Digite (7) - HeapSort\n\n");
                 System.out.printf("Digite (8) - Executar Todos\n\n");
                 System.out.printf("Digite (9) - Transformar Datas\n\n");
-                System.out.printf("Digite (10) - Gerar valores Acima da Media\n\n");
+                System.out.printf("Digite (10) - Gerar valores Acima e Abaixo da Media\n\n");
                 System.out.printf("Digite (0) - SAIR\n\n");
 
                 int digito = getEnter();
