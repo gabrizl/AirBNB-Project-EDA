@@ -49,7 +49,7 @@
 
 Este projeto é uma ordenador de dados que tem como base as matérias de Estrutura de Dados e Laboratório de Estrutura de Dados.
 
-Relatório de Métricas: <a href="link">Acessa Relatório</a>.
+Relatório de Métricas: <a href="https://drive.google.com/file/d/1-n6Tg8iLUgC4bbaHLcQTUrDhi0y7lyzz/view?usp=sharing">Acessa Relatório</a>.
 
 ## Passo a passo de execução
 
