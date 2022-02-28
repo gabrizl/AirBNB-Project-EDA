@@ -925,7 +925,6 @@ public class Console {
 
                         bestNameCountingSort.readCsv(new CountingSort(false));
 
-                } else if (digito == 7) {
                         // HeapSort
                         ReadCSV numberOfReviewsHeapSort = new ReadCSV(this.fileBase,
                                         this.basePAth + "/HeapSort/MedioCaso/listing_numberOfReviews_HeapSort_MedioCaso.csv",
@@ -980,7 +979,7 @@ public class Console {
                 } else if (digito == 9) {
                         ReadCSV dateTransform = new ReadCSV(this.basePAth + "/base/listings.csv",
                                         this.basePAth + "/base/listings_review_date.csv",
-                                        this.basePAth + "/base/listings_review_date.csv",
+                                        this.basePAth + "/Date/listings_review_date.csv",
                                         "Last_review", ";");
 
                         this.loading = true;
