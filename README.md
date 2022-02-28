@@ -57,6 +57,6 @@ Relatório de Métricas: <a href="link">Acessa Relatório</a>.
   <li>Fazer o download do zip e descompactar</li>
   <li>Adicionar o arquivo que deseja ordenar no diretório: /src/csvs/base</li>
   <li>Colocar o arquivo com o nome "listings.csv"</li>
-  <li>Abrir a pasta dos arquivos na sua IDE compatível com Java(ex:VsCode,IntelliJ)"</li>
+  <li>Abrir a pasta dos arquivos na sua IDE compatível com Java (ex: VsCode, IntelliJ)</li>
   <li>A execução se inicia e apartir dai o usuário seleciona o que desejar</li>
 </ol>
