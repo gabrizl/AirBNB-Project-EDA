@@ -58,5 +58,8 @@ Relatório de Métricas: <a href="link">Acessa Relatório</a>.
   <li>Adicionar o arquivo que deseja ordenar no diretório: /src/csvs/base</li>
   <li>Colocar o arquivo com o nome "listings.csv"</li>
   <li>Abrir a pasta dos arquivos na sua IDE compatível com Java (ex: VsCode, IntelliJ)</li>
-  <li>A execução se inicia e apartir dai o usuário seleciona o que desejar</li>
+  <li>A execução se inicia e apartir dai é mostrado um menu com "iniciar","sobre","créditos","sair"</li>
+  <li>Para iniciar as ordenações e transformações o usuário seleciona "Digite (1) - INICIAR" no console</li>
+  <li>Antes de ordenar e gerar as médias o usuário deve transformar as datas, para isso o usuário seleciona "Digite (9) - Transformar Datas" </li>
+  <li>Após transformar as datas o usuário pode fazer a ordenação que desejar</li>
 </ol>
